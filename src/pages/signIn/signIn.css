@@ -1,0 +1,32 @@
+
+.signin-wrapper{
+    align-items: center;
+    text-align: center;
+    padding-right:35px ;
+}
+
+.signin-heading-wrapper{
+    text-align: center;
+}
+
+.signin-link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.error-msg{
+    color: red;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.error-msg-lg{
+    color: red;
+    font-weight: 700;
+}
+
+@media (max-width: 300px) {
+    .signin-heading{
+        font-size: 25px;
+    }
+}

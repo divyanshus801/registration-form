@@ -1,0 +1,37 @@
+
+.signup-wrapper{
+    align-items: center;
+    text-align: center;
+    padding-right:35px ;
+}
+
+.signup-heading-wrapper{
+    text-align: center;
+}
+
+.signup-link{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.error-msg{
+    color: red;
+    font-size: 10px;
+    font-weight: 700;
+}
+
+.error-msg-lg{
+    color: red;
+    font-weight: 700;
+}
+
+.success-msg{
+    color: rgb(29, 209, 29);
+    font-weight: 700;
+}
+
+@media (max-width: 300px) {
+    .signup-heading{
+        font-size: 25px;
+    }
+}

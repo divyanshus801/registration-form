@@ -1,0 +1,26 @@
+/* .customBtn-wrapper{
+    width: 100%;
+} */
+
+
+.customBtn{
+    width: 100%;
+    margin: 15px 16px 0px;
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 11px 29px;
+    height: 48px;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.customBtn:hover{
+    background-color: rgb(21, 21, 116);
+}
+
